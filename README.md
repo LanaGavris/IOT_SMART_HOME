@@ -29,7 +29,7 @@ Real-time IoT monitoring for server room environmental safety.
 All MQTT topics are prefixed with a unique project ID defined in `config.py`:
 
 ```python
-PROJECT_ID = "serverroom_safety_g7x2"   # change to something personal
+PROJECT_ID = "serverroom_safety_g7x2"   
 ```
 
 All topics become: `serverroom_safety_g7x2/temperature`, etc.  
